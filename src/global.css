@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto Mono';
+    /* font-size: 22px; */
+}
+
+.container {
+    border: 2px solid #444;
+    width: 500px;
+    height: 160px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    bottom: 60px;
+    background-color: white;
+    height: 240px;
+}
+
+.info  p{
+    margin: 0;
+    letter-spacing: -1px;
+}
+
+.info .label {
+    color: grey;
+}
+
+.headline {
+    font-size: 26px;
+    font-weight: 300;
+    /* max-height: 40px; */
+
+}
+
+.headline > p {
+    margin:0;
+    margin-bottom: 35px;
+}
+
+.photo{
+    border: 3px solid #DEDEDE;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: 3;
+    background-image: url('./photo.png');
+    background-size: cover;
+}
+
+.option-list {
+    /* border: 2px solid black; */
+    display: inline-flex;
+    gap: 15px;
+}
+
+.option{
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.selected {
+    border-top: 2px solid #abc984;
+    border-radius: 3px;
+    color: #8fb359;
+}
+
+
+
