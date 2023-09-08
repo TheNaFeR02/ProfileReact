@@ -1,11 +1,12 @@
 import React from 'react';
 import './global.css';
 
-const Picture = () => {
+const Picture = ( {photoURL} ) => {
+
     return(
         <>
             <div className='container'>
-                <div className='photo'></div>
+                <div className='photo' style={{backgroundImage: `url(${photoURL})`}}></div>
             </div>
         </>
     );
